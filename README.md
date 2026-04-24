@@ -1,10 +1,10 @@
-# 🎓 SAOS University Portal — Student & Academic Operations System
+#  SAOS University Portal — Student & Academic Operations System
 
 > A comprehensive C++ application for managing university academic operations including student enrollment, faculty management, attendance tracking, grading, and administrative control — built entirely using advanced Object-Oriented Programming principles.
 
 ---
 
-## 👥 Group Members
+##  Group Members
 
 | Name | Student ID |
 |------|------------|
@@ -16,7 +16,7 @@
 
 ---
 
-## 📋 Project Description
+##  Project Description
 
 The **SAOS University Portal** is a role-based, multi-user console application that simulates a real-world university academic management system. The system supports three distinct user roles — **Students**, **Faculty**, and **Admins** — each with a dedicated portal and specific capabilities.
 
@@ -24,32 +24,32 @@ Built without STL containers (no `vector`, no `map`), the system instead uses ra
 
 ---
 
-## 🚀 Key Use Cases
+##  Key Use Cases
 
-### 1. 🎓 Student Enrollment & Course Management
+### 1.  Student Enrollment & Course Management
 Students can browse available courses and self-enroll (up to 5 courses). Admins can also enroll or remove courses on a student's behalf. Duplicate enrollment and over-enrollment are both guarded with validation errors.
 
-### 2. 💳 Fee Payment System
+### 2.  Fee Payment System
 Students can view their current outstanding fee balance and make partial or full payments using an overloaded `-=` operator. The system prevents overpayments and invalid (zero or negative) amounts.
 
-### 3. 📅 Attendance Marking (Single & Bulk)
+### 3.  Attendance Marking (Single & Bulk)
 Faculty can mark attendance for individual students or switch to **Bulk Entry Mode** to process an entire class at once by entering roll numbers sequentially. The system enforces that a student must be formally enrolled in a course before attendance can be recorded for it.
 
-### 4. 📝 Grade Assignment & Transcript Viewing
+### 4.  Grade Assignment & Transcript Viewing
 Faculty can assign letter grades (A+, A, B-, etc.) to enrolled students for courses they teach. Students can view their official formatted transcript at any time, showing all enrolled courses and their current grades.
 
-### 5. 💰 Faculty Salary Management & Redemption
+### 5.  Faculty Salary Management & Redemption
 Admins can credit salary payments to individual faculty members. Faculty can then view their credited balance and redeem any portion of it — with validation to prevent over-redemption or invalid amounts.
 
-### 6. 💾 Persistent Data Storage Across Sessions
+### 6.  Persistent Data Storage Across Sessions
 All student records (courses, attendance, grades, fee balances), faculty data (assigned courses, salary), and admin credentials are automatically saved to `.txt` files on logout and reloaded on the next startup — ensuring no data is lost between sessions.
 
-### 7. 🛡️ Role-Based Access Control
+### 7.  Role-Based Access Control
 The system enforces strict access boundaries. Faculty can only mark attendance and assign grades for courses they are assigned to teach. All login attempts are validated against stored credentials before granting portal access.
 
 ---
 
-## 🏗️ Core OOP Concepts Applied
+## Core OOP Concepts Applied
 
 | Concept | Implementation |
 |---------|---------------|
@@ -63,7 +63,7 @@ The system enforces strict access boundaries. Faculty can only mark attendance a
 
 ---
 
-## 📁 Project File Structure
+##  Project File Structure
 
 ```
 SAOS-Portal/
@@ -85,7 +85,7 @@ SAOS-Portal/
 
 ---
 
-## 🔧 Instructions to Compile & Run
+##  Instructions to Compile & Run
 
 ### Option A — Dev-C++
 
@@ -136,7 +136,7 @@ g++ -std=c++11 *.cpp -o SAOSPortal
 
 ---
 
-## 🖥️ How to Use the System
+##  How to Use the System
 
 When launched, the system presents the main login screen:
 
@@ -151,7 +151,7 @@ When launched, the system presents the main login screen:
 Select Role:
 ```
 
-### 🔐 Default Login Credentials
+###  Default Login Credentials
 
 | Role | Email | Password |
 |------|-------|----------|
@@ -163,7 +163,7 @@ Select Role:
 
 ---
 
-### 👨‍🎓 Student Portal Walkthrough
+###  Student Portal Walkthrough
 
 After logging in, the student menu offers:
 
@@ -178,7 +178,7 @@ After logging in, the student menu offers:
 
 ---
 
-### 👨‍🏫 Faculty Portal Walkthrough
+###  Faculty Portal Walkthrough
 
 | Option | Action |
 |--------|--------|
@@ -192,7 +192,7 @@ After logging in, the student menu offers:
 
 ---
 
-### 🛡️ Admin Portal Walkthrough
+###  Admin Portal Walkthrough
 
 | Option | Action |
 |--------|--------|
@@ -204,7 +204,7 @@ After logging in, the student menu offers:
 
 ---
 
-### 📚 Available Courses
+###  Available Courses
 
 | Course Code | Course Title |
 |-------------|-------------|
@@ -216,7 +216,7 @@ After logging in, the student menu offers:
 
 ---
 
-## ⚠️ Assumptions & Limitations
+##  Assumptions & Limitations
 
 - **No STL Containers:** The system deliberately avoids `vector`, `map`, and other STL containers. All collections use fixed-size C-style arrays with manual index counters, as required by the course constraints.
 
