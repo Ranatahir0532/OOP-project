@@ -8,9 +8,9 @@
 
 | Name | Student ID |
 |------|------------|
-| Muhammad Anas | 25K-0899 |
-| Abdullah Moin | 25K-0991 |
-| Syed Alyan Hussain | 25K-0648 |
+| Tahir hussain | 25K-0532 |
+| abdullah amir farooqi | 25K-0868 |
+| Ali shanawar | 25K-0564 |
 
 **Course:** Object-Oriented Programming (CS2001) — Lab Semester Project
 
