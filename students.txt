@@ -1,0 +1,3 @@
+Abdullah,24K-0868,abdullah@saos.edu,pass123,70000,EE1005:UnGraded:;SS1014:UnGraded:;MT1008:A+:19/2/26=A
+Ali Khan,23K-0055,ali@saos.edu,student1,150000,MT1008:B-:15/3/9=A
+Ayesha Tariq,22K-0999,ayesha@saos.edu,student2,0,EE1005:UnGraded:
